@@ -1,0 +1,30 @@
+#image {
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+#img-div,
+#title,
+#title + p,
+#tribute-info h2 {
+  text-align: center;
+}
+
+#title + p {
+  max-width: 80%; 
+  margin: 2rem auto;
+}
+
+#tribute-info {
+  background-color: aliceblue;
+  padding: 1rem;
+  margin-top: 2.5rem;
+}
+
+#tribute-info ul {
+  margin: auto;
+  width: 600px;
+  max-width: 100%;
+}
